@@ -11,6 +11,7 @@
 }
 
 body {
+    font: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 20px;
     color: #23272a;
 }
@@ -117,6 +118,7 @@ nav ul li a {
 
 .content {
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .content img {
@@ -136,4 +138,101 @@ nav ul li a {
 .content-text p {
     font-size: 21px;
     padding: 30px 0;
+}
+
+.wave svg {
+    color: #f6f6f6;
+    display: block;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.bg-grey {
+    background-color: #f6f6f6 ;
+}
+
+.content-text-last h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.content-text-last p {
+    font-size: 21px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.content .last {
+    width: 100%;
+}
+
+.stars {
+    width: 50%;
+    height: 60px;
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    margin-left: 50%;
+    transform: translate(-50%)
+}
+
+.stars h4 {
+    font-size: 35px;
+    text-align: center;
+    line-height: 120px;
+}
+
+.last-button {
+    width: 205px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #8ea1e1;
+    margin: 50px auto;
+}
+
+.last-button .text{
+    padding: 0 30px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.footer-up {
+    padding-bottom: 32px;
+    padding-top: 100px;
+}
+
+footer {
+    background-color: #23272a;
+}
+
+.main-col {
+    width: 32%;
+    float: left;
+}
+
+.col {
+    width: 17%;
+    float: left;
+}
+
+.blue {
+    color: #8ea1e1;
+}
+
+.footer-up ul li {
+    list-style-type: none;
+}
+
+.footer-up ul li a {
+    text-decoration: none;
+    color: white;
+    line-height: 35px;
+}
+
+.footer-down {
+    padding: 32px;
+    border-top: 1px solid #8ea1e1;
 }
