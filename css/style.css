@@ -110,3 +110,30 @@ nav ul li a {
     text-align: center;
     padding-top: 50px;
 }
+
+.left {
+    float: left;
+}
+
+.content {
+    padding-top: 100px;
+}
+
+.content img {
+    width: 55%;
+}
+
+.content-text {
+    display: inline-block;
+    width: 44%;
+    padding: 0 130px;
+}
+
+.content-text h2 {
+    font-size: 50px;
+}
+
+.content-text p {
+    font-size: 21px;
+    padding: 30px 0;
+}
