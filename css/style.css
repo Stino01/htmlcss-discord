@@ -1,3 +1,4 @@
+/* reset */
 * {
     margin: 0;
     padding: 0;
@@ -11,13 +12,9 @@
 }
 
 body {
-    font: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #23272a;
-}
-
-header {
-    background-color: rgba(49, 97, 224, 255);
 }
 
 .container{
@@ -25,6 +22,29 @@ header {
     margin: 0 auto;
 }
 
+.left {
+    float: left;
+}
+
+.bg-grey {
+    background-color: #f6f6f6 ;
+}
+
+#black{
+    background-color: #23272a;
+    color: white;
+}
+
+.white {
+    color: white;
+}
+
+/* header */
+header {
+    background-color: rgba(49, 97, 224, 255);
+}
+
+/* barra di navigazione */
 nav {
     height: 80px;
     line-height: 80px;
@@ -70,6 +90,7 @@ nav ul li a {
     color: #23272a;
 }
 
+/* jumbotron */
 #jumbotron {
     min-height: 546px;
     background-image: url(../img/jumbo.png);
@@ -107,13 +128,10 @@ nav ul li a {
     margin: 0 10px;
 }
 
+/* bottoni */
 .bt {
     text-align: center;
     padding-top: 50px;
-}
-
-.left {
-    float: left;
 }
 
 .content {
@@ -121,6 +139,7 @@ nav ul li a {
     padding-bottom: 100px;
 }
 
+/* sezioni main */
 .content img {
     width: 55%;
 }
@@ -136,10 +155,12 @@ nav ul li a {
 }
 
 .content-text p {
+    line-height: 30px;
     font-size: 21px;
     padding: 30px 0;
 }
 
+/* onde */
 .wave svg {
     color: #f6f6f6;
     display: block;
@@ -149,17 +170,14 @@ nav ul li a {
     transform: rotate(180deg);
 }
 
-.bg-grey {
-    background-color: #f6f6f6 ;
-}
-
+/* ultima sezione */
 .content-text-last h2 {
-    font-size: 50px;
+    font-size: 56px;
     text-align: center;
 }
 
 .content-text-last p {
-    font-size: 21px;
+    font-size: 26px;
     padding: 30px 0;
     text-align: center;
 }
@@ -168,6 +186,7 @@ nav ul li a {
     width: 100%;
 }
 
+/* bottoni con sfondo stelle */
 .stars {
     width: 50%;
     height: 60px;
@@ -184,7 +203,7 @@ nav ul li a {
 }
 
 .last-button {
-    width: 205px;
+    width: 220px;
     height: 50px;
     border-radius: 30px;
     background-color: #8ea1e1;
@@ -199,18 +218,24 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* footer */
+footer {
+    background-color: #23272a;
+}
+
+/* footer up */
 .footer-up {
     padding-bottom: 32px;
     padding-top: 100px;
 }
 
-footer {
-    background-color: #23272a;
-}
-
 .main-col {
     width: 32%;
     float: left;
+}
+
+.main-col h4 {
+    font-size: 45px;
 }
 
 .col {
@@ -220,6 +245,7 @@ footer {
 
 .blue {
     color: #8ea1e1;
+    font-weight: 400;
 }
 
 .footer-up ul li {
@@ -232,7 +258,34 @@ footer {
     line-height: 35px;
 }
 
+/* footer down */
 .footer-down {
     padding: 32px;
     border-top: 1px solid #8ea1e1;
+}
+
+.footer-down .accedi a {
+    padding: 5px 15px;
+    background-color: #8ea1e1;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.select {
+    padding: 20px 0;
+}
+
+.flag {
+    width: 7%;
+    height: 20px;
+    background-image: url(../img/ita.png);
+    background-size: cover;
+    display: inline-block;
+}
+
+.social .social-tag {
+    float: left;
+    color: white;
+    padding: 0 30px 0 0;
 }
